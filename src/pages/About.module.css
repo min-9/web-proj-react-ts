@@ -1,0 +1,62 @@
+.container {
+  align-items: center;
+  margin-bottom: 20px;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+/* logos */
+.c_logo {
+  position: relative;
+  width: 10%;
+  opacity: 0.5;
+}
+
+.java_logo {
+  position: relative;
+  width: 10%;
+  opacity: 0.5;
+}
+
+.py_logo {
+  position: relative;
+  width: 10%;
+  opacity: 0.5;
+}
+
+.js_logo {
+  position: relative;
+  width: 10%;
+  opacity: 0.5;
+}
+
+.go_logo {
+  position: relative;
+  width: 10%;
+  opacity: 0.5;
+}
+
+.list {
+  border-radius: 20px;
+  width: 100%;
+  margin: 5% 0;
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+  justify-content: center;
+}
+
+.title {
+  border-radius: 20px;
+  font-size: 2rem;
+  padding: 4%;
+  text-align: left;
+  margin-bottom: 10%;
+}
+
+.content {
+  font-size: 1.5em;
+  text-align: center;
+  padding: 0 4%;
+  padding-bottom: 20%;
+}
