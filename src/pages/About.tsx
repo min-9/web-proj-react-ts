@@ -86,8 +86,14 @@ export default function About() {
       {isTrue ? (
         posts.map((post) => <Post key={post.id} styles={styles} post={post} />)
       ) : (
-        <div>
-          <div>nothing</div>
+        <div className={styles.info}>
+          <div>
+            url 맨뒤에
+            <pre>
+              <code>/show?=true</code>
+            </pre>
+            를 추가해보세요
+          </div>
         </div>
       )}
     </Container>

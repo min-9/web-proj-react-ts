@@ -60,3 +60,11 @@
   padding: 0 4%;
   padding-bottom: 20%;
 }
+
+.info {
+  margin-top: 4%;
+  border-radius: 20px;
+  padding: 4% 5%;
+  background-color: rgb(237, 237, 237);
+  font-size: 1.3rem;
+}

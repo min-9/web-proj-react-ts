@@ -12,8 +12,8 @@ export default function Menu() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="/">홈</Nav.Link>
-              <Nav.Link href="/about">게시판</Nav.Link>
-              <Nav.Link href="/posts">공지</Nav.Link>
+              <Nav.Link href="/about">정보</Nav.Link>
+              <Nav.Link href="/posts">게시물</Nav.Link>
             </Nav>
             <Nav>
               {isLogin ? (
