@@ -1,0 +1,50 @@
+.linkHeader {
+  font-size: 2.5rem;
+  color: rgb(23, 23, 23);
+  text-decoration: none;
+}
+
+.linkItem {
+  font-size: 1.2rem;
+  color: rgb(23, 23, 23);
+  text-decoration: none;
+}
+
+.h3 {
+  border-radius: 20px;
+  padding: 2% 3%;
+  margin-top: 4%;
+  background-color: rgb(240, 240, 240);
+}
+
+.container {
+  align-items: center;
+  margin-bottom: 20px;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.list {
+  border-radius: 20px;
+  width: 100%;
+  margin: 5% 0;
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+  justify-content: center;
+}
+
+.title {
+  border-radius: 20px;
+  font-size: 2rem;
+  padding: 4%;
+  text-align: left;
+  margin-bottom: 10%;
+}
+
+.content {
+  font-size: 1.5em;
+  text-align: center;
+  padding: 0 4%;
+  padding-bottom: 20%;
+}

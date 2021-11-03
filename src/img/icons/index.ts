@@ -1,0 +1,11 @@
+export { default as c_logo } from './c.png';
+export { default as java_logo } from './java.png';
+export { default as py_logo } from './python.png';
+export { default as js_logo } from './js.png';
+export { default as go_logo } from './go.png';
+export { default as cpp_logo } from './cpp.png';
+export { default as nodejs_logo } from './nodejs.png';
+export { default as react_logo } from './react.png';
+export { default as spring_logo } from './spring.png';
+export { default as ts_logo } from './ts.png';
+export { default as vue_logo } from './vue.png';

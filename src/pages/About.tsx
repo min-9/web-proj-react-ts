@@ -2,21 +2,18 @@ import { useState, useEffect } from 'react';
 import { useParams } from 'react-router';
 import queryString from 'query-string';
 import { useLocation } from 'react-router-dom';
-import { MatchType, PostType } from '.';
+import { MatchType, PostType } from '../types';
 import { Post } from '../components';
 import { Container } from 'react-bootstrap';
 // css module
-import styles from './About.module.css';
+import { aboutStyles as styles } from '../styles';
 // import logos
-import c_logo from '../img/icons/clang.png';
-import java_logo from '../img/icons/java.png';
-import py_logo from '../img/icons/python.png';
-import js_logo from '../img/icons/js.png';
-import go_logo from '../img/icons/golang.png';
+import { c_logo, java_logo, py_logo, js_logo, go_logo } from '../img/icons';
 
 export default function About() {
   const params = useParams<MatchType>();
   const location = useLocation();
+  console.log(location);
 
   const matchString = 'true'; // 여기에서 설정
   // url: homepage/page/id?key=value

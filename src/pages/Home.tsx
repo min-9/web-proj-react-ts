@@ -1,15 +1,11 @@
 import { useState, useEffect } from 'react';
-import { PostType } from '.';
-import { Post } from '../components';
 import { Container } from 'react-bootstrap';
-// css module
-import styles from './Home.module.css';
+import { PostType } from '../types';
+import { Post } from '../components';
+// import module.css
+import { homeStyles as styles } from '../styles';
 // import logos
-import c_logo from '../img/icons/clang.png';
-import java_logo from '../img/icons/java.png';
-import py_logo from '../img/icons/python.png';
-import js_logo from '../img/icons/js.png';
-import go_logo from '../img/icons/golang.png';
+import { c_logo, java_logo, py_logo, js_logo, go_logo } from '../img/icons';
 
 export default function Home() {
   const [posts, setPosts] = useState<PostType[]>([]);
